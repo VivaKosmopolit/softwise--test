@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px) {
+    body { font-size: 15px; }
+    .container { }
+    .app-main-info p, .app-main-info ul { width: 95%; }
+    .language-switcher {
+        top: 0;
+        right: 5px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    html {
+        font-size: 14px;
+    }
+
+    .language-switcher {
+        width: 120px;
+    }
+}
